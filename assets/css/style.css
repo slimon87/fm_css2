@@ -1,13 +1,13 @@
-.img{
-  width: 300px;
-  height: 300px;
+.wrapper{
+  width: 500px;
+  /* height: 500px; */
+  min-height: 500px;
+  border: 3px solid red;
+}
+.inner{
   box-sizing: border-box;
-
-  object-fit: cover;
-  object-position: top left;
-
-  /* border: 3px solid red;
-  border-radius: 50%; */
-  /* padding: 15px; */
-  margin: 10px auto;
+  width: 50%;
+  /* height: 300px; */
+  border: inherit;
+  border-color: blue;
 }
