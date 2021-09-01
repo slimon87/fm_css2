@@ -1,23 +1,27 @@
 .img{
+  display: block;
   width: 300px;
   box-sizing: border-box;
 
   border: 3px solid red;
   padding: 5px 15px;
-  margin: 10px;
+  margin: 10px auto;
 }
 .span{
+  display: block;
   width: 300px;
   border: 3px solid red;
   padding: 15px;
   margin: 40px;
 }
 .div{
-  width: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 150px;
   border: 3px solid red;
-  margin: 50px auto;
+  /* margin: 50px auto; */
 }
-.align-center{
+/* .align-center{
   margin: -20px auto;
   text-align: center;
-}
+} */
