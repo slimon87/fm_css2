@@ -1,0 +1,24 @@
+.container{
+  color:white;
+  border: 5px solid crimson;
+  padding: 15px;
+  height: 70vh;
+  font-size: 30px;
+  background-color: darkgrey;
+  background-image: url(./../images/mediterranean-sea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.btn{
+  font-size: 30px;
+  padding: 15px;
+  text-transform: capitalize;
+  min-width: 50px;
+  width: 100%;
+  max-width: 300px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
