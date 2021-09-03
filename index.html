@@ -4,26 +4,78 @@
     <meta charset="UTF-8" />
     <title>CSS</title>
     <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <h1>Hi!</h1>
-    <!-- ul>li*5{item $} -->
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-      <li>item 4</li>
-      <li>item 5</li>
-    </ul>
-    <ol>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-      <li>item 4</li>
-      <li>item 5</li>
-    </ol>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores voluptatum facilis? Eaque fugit sed ullam magnam eos architecto consequatur libero, quam tempore porro consectetur nostrum error! Provident cum repellat delectus ea ipsum, sit consequatur deserunt atque sint nostrum iusto, officiis animi numquam molestias magni impedit eius nam dicta modi nemo alias doloremque. Obcaecati, in?</p>
+   <table>
+     <caption>title table</caption>
+     <!-- thead>tr>th*7{title column $} -->
+     <thead>
+       <tr>
+         <th>title column 1</th>
+         <th>title column 2</th>
+         <th>title column 3</th>
+         <th>title column 4</th>
+         <th>title column 5</th>
+         <th>title column 6</th>
+         <th></th>
+       </tr>
+     </thead>
+     <!-- tbody>tr*5>td*7{cell $} -->
+     <tbody>
+       <tr>
+         <td rowspan="5">union</td>
+         <td>cell 2</td>
+         <td>cell 3</td>
+         <td>cell 4</td>
+         <td>cell 5</td>
+         <td>cell 6</td>
+         <td>cell 7</td>
+       </tr>
+       <tr>
+         <!-- <td>cell 1</td> -->
+         <td>cell 2</td>
+         <td rowspan="2" colspan="2">union 2</td>
+         <!-- <td>cell 4</td> -->
+         <td>cell 5</td>
+         <td>cell 6</td>
+         <td>cell 7</td>
+       </tr>
+       <tr>
+         <!-- <td>cell 1</td> -->
+         <td>cell 2</td>
+         <!-- <td>cell 3</td>
+         <td>cell 4</td> -->
+         <td>cell 5</td>
+         <td>cell 6</td>
+         <td>cell 7</td>
+       </tr>
+       <tr>
+         <!-- <td>cell 1</td> -->
+         <td>cell 2</td>
+         <td>cell 3</td>
+         <td>cell 4</td>
+         <td>cell 5</td>
+         <td>cell 6</td>
+         <td>cell 7</td>
+       </tr>
+       <tr>
+         <!-- <td>cell 1</td> -->
+         <td>cell 2</td>
+         <td>cell 3</td>
+         <td>cell 4</td>
+         <td>cell 5</td>
+         <td>cell 6</td>
+         <td>cell 7</td>
+       </tr>
+     </tbody>
+     <tfoot>
+       <tr>
+         <th>total 1</th>
+         <th colspan="6">total 2</th>
+       </tr>
+     </tfoot>
+   </table>
   </body>
 </html>

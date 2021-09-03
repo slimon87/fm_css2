@@ -1,9 +1,15 @@
-ul{
-  list-style-type: lower-roman;
-  list-style-position: inside;
+th, td{
+  border: 1px solid #555;
+  vertical-align: top;
+  text-align: left;
 }
-ol{
-  list-style-type: square;
-  list-style-image: url(./../images/account-plus-outline.png);
-  list-style-position: inside;
+table{
+  border-collapse: collapse;
+  min-width: 500px;
+  width: 100%;
+  max-width: 1100px;
+  /* empty-cells: hide; */
+}
+caption{
+  text-align: right;
 }
