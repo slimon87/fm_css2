@@ -1,14 +1,22 @@
-.profile-pic-good{
-  width: 25vmin;
-  height: 25vmin;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 50%;
+.container{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin: 10px;
+
+  background-color: coral;
+
+  text-align: center;
+  font-size: 2em;
 }
-.profile-pic-bad{
-  width: 25vmin;
-  height: 25vmin;
-  border-radius: 50%;
-  background-image: url(./../images/1200px-Cat_November_2010-1a.jpg);
-  background-size: cover;
+.hidden1{
+  display: none;
+}
+.hidden2{
+  opacity: 0;
+}
+.hidden3{
+  visibility: hidden;
 }
