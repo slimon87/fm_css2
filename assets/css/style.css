@@ -1,15 +1,30 @@
-th, td{
-  border: 1px solid #555;
-  vertical-align: top;
-  text-align: left;
+*{
+  box-sizing: border-box;
 }
-table{
-  border-collapse: collapse;
-  min-width: 500px;
-  width: 100%;
-  max-width: 1100px;
-  /* empty-cells: hide; */
+body{
+  font-size: 20px;
 }
-caption{
-  text-align: right;
+#container{
+  border: 1px solid red;
+}
+.block{
+  border: 3px dotted orangered;
+}
+div{
+  border: 3px double green;
+}
+p{
+  background-color: orchid;
+}
+#container p{
+  background-color: palegreen;
+}
+#container>p{
+  background-color: purple;
+}
+#container>.block>p{
+  background-color: yellow;
+}
+#container>.block>.inner-block>p{
+  background-color: tomato;
 }
