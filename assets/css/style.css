@@ -1,41 +1,18 @@
-.navigation{}
-.link-list{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-.link-list>li{
-  display: inline-block;
-}
-.page-link:not(button){
-  display: block;
-  padding: 15px;
-  background-color: coral;
-  color:#000;
-  text-decoration: none;
-  font-size: 1.5em;
-}
-.page-link:link{
-  background-color: red;
-}
-.page-link:visited{
-  color: aqua;
-  background-color:blueviolet;
-}
-.page-link:hover{
-  color:white;
-  /* border:3px solid red; */
-}
-.page-link:focus{
-  border-radius: 50%;
-  outline: 4px dotted hotpink;
-}
-.page-link:active{
-  background-color:green;
+/* 
+ul:first-child{
+  color:red;
+} */
+
+li:nth-child(n+8){
+  color:green;
 }
 
-div:focus{
-  background-color: indigo;
+button:disabled{
+  color:green;
+  background-color: brown;
 }
 
+
+*:target{
+  color:darkgoldenrod;
+}
